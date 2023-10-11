@@ -15,7 +15,7 @@
 5. What is ReactDOM used for? write an example?
 - ReactDOM is a specific package in the React ecosystem that provides methods for interacting with the DOM(Document Object Model). It is used to render React components into the actual HTML DOM. Here's and example of using ReactDOM to render a simple React component. 
 
-```
+```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -29,7 +29,7 @@ reactRoot.render(element);
 6. What are the packages that you need to import for react to work with? 
 - To work with React, typically need to import two main packages: `react` and `react-dom`. 
 
-```
+```javascript
 import React from 'react'; // for creating React components
 import ReactDOM from 'react-dom'; // for rendering react components in the DOM 
 
@@ -57,7 +57,7 @@ c. Children ( Elements ): Any additional elements that should be nested within t
 10. What is the meaning of render and root?
 - In the context of React, "render" refers to the process of taking a React component and displaying it on a web page. The "root" typically refers to the HTML element in the DOM where React application will be mounted. The  `ReactDOM.render` function is used to render a React component into this root element. 
 
-```
+```javascript
 const reactRoot = ReactDOM.createRoot(document.getElementById('root'));
 
 reactRoot.render(element);
